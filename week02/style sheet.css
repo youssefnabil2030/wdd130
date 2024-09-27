@@ -1,0 +1,22 @@
+body {
+background-color: coral;
+}
+main{
+    max-width: 840px;
+}
+
+.main-text {
+    text-align: center;
+}
+
+#main {
+    position: absolute;
+    right: 900px;
+    left: 430px;
+    scrollbar-shadow-color: goldenrod;
+   
+}
+.paragraph{
+    padding: 70px;
+  border: 1px solid #4CAF50;
+}
