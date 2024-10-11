@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rapids - Your Ultimate Rafting Adventure</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="header">
+        <div class="logo">
+            <div class="square" >
+            </div>
+            <img src="Layer 1.png" alt="Rapids Logo">
+        </div>
+        <nav class="vertical-list li">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Trips</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to RAPIDS – Your Ultimate Rafting Adventure</h1>
+            <a href="#" class="btn">Book Now</a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="feature-item">
+            <img src="rafting-icon.png" alt="Rafting Icon">
+            <p>Good Rafting</p>
+        </div>
+        <div class="feature-item">
+            <img src="safe-icon.png" alt="Safe Icon">
+            <p>Safe</p>
+        </div>
+        <div class="feature-item">
+            <img src="food-icon.png" alt="Food Icon">
+            <p>Food</p>
+        </div>
+    </section>
+
+    <!-- Comments Section -->
+    <section class="comments">
+        <h2>Comments</h2>
+        <div class="comment-item">
+            <img src="rafting1.jpg" alt="Rafting Image">
+            <div class="comment-text">
+                <p>Custom Packages: Offering custom packages adds a personal touch and shows flexibility in catering to customers' specific needs, which can attract a wider audience.</p>
+            </div>
+        </div>
+        <div class="comment-item">
+            <img src="rafting2.jpg" alt="Rafting Image">
+            <div class="comment-text">
+                <p>Custom Packages: Offering custom packages adds a personal touch and shows flexibility in catering to customers' specific needs, which can attract a wider audience.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="social-media">
+            <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+            <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+            <a href="#"><img src="youtube-icon.png" alt="YouTube"></a>
+            <a href="#"><img src="whatsapp-icon.png" alt="WhatsApp"></a>
+        </div>
+    </footer>
+
+</body>
+</html>

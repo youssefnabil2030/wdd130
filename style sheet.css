@@ -1,0 +1,204 @@
+body { background-color: #c7d2e9;}
+
+.square {
+    width: 100%;
+    height: 50%;
+    background-color: #56b0d4;
+}
+
+#background {
+    top: 50%;
+    bottom: 50%;
+    right: auto;
+    left: auto;
+}
+
+.text-over-image {
+    top: 25px;
+    bottom: 50px;
+    
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: #e27a12;
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #e27a12;
+  }
+
+ .button {
+    position: absolute;
+    top: 200%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ }
+
+#rectangle {
+    top: 1000px;
+    bottom: 500px;
+    height: 1000px;
+    right: 50%;
+    left: 50%;
+    transform: translate(-50%, -50% , -50% , -50%);
+    
+  width: 100%;
+  background-color: white;
+ }
+
+ #raft {
+    position: absolute;
+    right: 70%;
+    left: 70%;
+    top: 280%;
+    bottom: 280%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+ #food {
+    position: absolute;
+    right: 15%;
+    left: 15%;
+    top: 280%;
+    bottom: 280%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+    
+
+#safe {
+    position: absolute;
+    right: 40%;
+    left: 40%;
+    top: 250%;
+    bottom: 500%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.image-1 {
+    position: absolute;
+   top: 350%;
+   bottom: 350%;
+   right: 15%;
+   left: 15%;
+}
+
+.image-2 {
+    position: absolute;
+    top: 420%;
+    bottom: 420%;
+    right: 15%;
+   left: 15%;
+}
+
+#square-orange {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right: 65%;
+    left: 30%;
+    top: -10px;
+    bottom: -1px;
+    background-color: #e27a12;
+
+}
+
+#square-orange-2 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right: 65%;
+    left: 30%;
+    top: -10px;
+    bottom: -1px;
+    background-color: #e27a12;
+
+}
+
+.square-blue-1 {
+    position: absolute;
+    right: 50%;
+    left: 50%;
+    top: 350%;
+    bottom: 350%;
+    width: 40%;
+    height: 40%;
+    background-color: #56b0d4;
+}
+
+.square-blue-2 {
+    position: absolute;
+    right: 50%;
+    left: 50%;
+    top: 420%;
+    bottom: 420%;
+    width: 40%;
+    height: 40%;
+    background-color: #56b0d4;
+}
+
+#square-2 {
+    width: 100%;
+    height: 50px;
+    background-color: #e27a12;
+}
+
+#home {
+    position: absolute;
+    right: 1000px;
+    left: 500px;
+}
+
+#about-us {
+    position: absolute;
+    right: 2000%;
+    left: 1000%;
+}
+
+ul {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+  }
+  
+  li {
+    display: inline;
+  }
+
+  #style-list {
+    color: white;
+  }
+
+  #facebook {
+    position: relative;
+    right: 60%;
+    left: 60%;
+    width: 5px;
+    height: 5px;
+  }
+
+  #whatsapp {
+    position: relative;
+    right: 70%;
+    left: 70%;
+    top: 5px;
+    bottom: 5px;
+    width: 5px;
+    height: 5px;
+  }
+
+  #youtube {
+    position: relative;
+    right: 80%;
+    left: 80%;
+    top: 5px;
+    bottom: 5px;
+    width: 5px;
+    height: 5px;
+  }
