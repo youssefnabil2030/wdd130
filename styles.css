@@ -9,7 +9,18 @@ body {
     width: 50%;
 }
 
-.aside-header { 
+aside { 
     padding: 50px;
     border: 1px solid black;
 }
+ aside {
+      background-color: #f0e68c;
+      padding: 15px;
+    }
+
+    aside img {
+      width: 200px;
+      height: auto;
+      display: block;
+      margin-top: 10px;
+    }
