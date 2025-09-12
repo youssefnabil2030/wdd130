@@ -200,9 +200,10 @@ button:hover {
     flex-direction: column;
     text-align: center;
   }
-  .h1{
+  h1{
     text-align: center;
   }
 }
+
 
 
