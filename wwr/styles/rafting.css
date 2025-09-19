@@ -46,7 +46,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.hero-image {
+.hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ;
   height: 50%;
   background-position: center;
@@ -338,5 +338,6 @@ body {
   font-weight: 500;   /* Medium boldness */
   letter-spacing: 0.02em; /* Subtle spacing for style */
 }
+
 
 
