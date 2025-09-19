@@ -47,7 +47,7 @@ body {
 }
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("hero-image.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ;
   height: 50%;
   background-position: center;
   background-repeat: no-repeat;
@@ -338,4 +338,5 @@ body {
   font-weight: 500;   /* Medium boldness */
   letter-spacing: 0.02em; /* Subtle spacing for style */
 }
+
 
