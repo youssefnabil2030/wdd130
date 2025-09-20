@@ -199,7 +199,7 @@ body {
 	text-align: center;
 	padding: 10px 0;
 }
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
 
 * {
   margin: 0;
@@ -338,6 +338,7 @@ body {
   font-weight: 500;   /* Medium boldness */
   letter-spacing: 0.02em; /* Subtle spacing for style */
 }
+
 
 
 
