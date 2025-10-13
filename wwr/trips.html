@@ -1,115 +1,95 @@
-
 <!DOCTYPE html>
 <html lang="en">
- <head>
+<head>
   <meta charset="UTF-8" />
+  <meta name="description" content="Adventure Rafting Trips - Discover our best rafting adventures with detailed information and pricing." />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="author" content="Youssef Nabil">
-  <meta name="description" content="The White Water Rafting Website of week03 of WDD130">
-  <title>White Water Rafting</title>
-  <link rel="icon" href="images/z-raftingcompas.jpg" type="image/png">
-  <link rel="stylesheet" href="styles/rafting.css">
+  <title>Adventure Rafting | Trips</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
-
-  <body>
-    <nav class="navbar">
-      <img
-        src="images/z-raftingcompas.jpg"
-        alt="Logo"
-        class="logo"
-      />
-
+<body>
+  <!-- HEADER -->
+  <header class="navbar">
+    <img src="logo.png" alt="Adventure Rafting Logo" class="logo">
+    <nav>
       <ul class="menu">
         <li class="item"><a href="index.html">Home</a></li>
-        <li class="item"><a href="about.html">About Us</a></li>
-        <li class="item"><a href="contact.html">Contact Us</a></li>
         <li class="item"><a href="trips.html">Trips</a></li>
+        <li class="item"><a href="contact.html">Contact</a></li>
       </ul>
-
     </nav>
-    
-   
-    
-    <div class="hero-rivers">
-	
-  <div class="hero-text">
-    <h1>Ride the Rapids. Embrace the Adventure</h1>
-    <p>Choose your next adventure – from calm waters to wild rapids!</p>
-    <button>BOOK NOW</button>
-  </div>
-</div>
-	<br>
-	
+  </header>
 
-	 <section class="trips-section">
-  <h2>Our Trips</h2>
-  <ol>
-    <li>Beginner Rapids – A smooth and exciting ride for first-time rafters looking to learn the basics and enjoy calm waters.</li>
-    <li>Family Rafting Adventure – A fun and safe experience designed for families who want to explore the river together.</li>
-    <li>Extreme Rapids Challenge – A thrilling adventure with strong waves and sharp turns for experienced rafters seeking excitement.</li>
-    <li>Sunset River Ride – A peaceful journey at sunset where you can relax, paddle gently, and enjoy the stunning view.</li>
-  </ol>
-</section>
+  <!-- HERO SECTION -->
+  <section class="hero-rivers">
+    <div class="hero-text">
+      <h1>Explore Our Trips</h1>
+      <p>Choose your adventure and conquer the wild waters.</p>
+    </div>
+  </section>
 
-    
-<br>
-   <div class="final-container">
-	 <h2>Adventure Awaits You</h2>
-	  <div class="image-wrapper">
-    <img src="images/1.webp" class="img1" alt="Image 1">
-    <img src="images/2.webp" class="img2" alt="Image 2">
-    <img src="images/3.webp" class="img3" alt="Image 3">
-    <img src="images/4.webp" class="img4" alt="Image 4">
-    <img src="images/5.webp" class="img5" alt="Image 5">
-  </div>
-   </div>
-<br>
-<br>   
-<br>
+  <!-- TRIPS DETAILS -->
+  <section class="trips-section">
+    <h2>Our Top Rafting Trips</h2>
+    <ol>
+      <li><strong>Beginner Rapids:</strong> Calm waters and scenic views for first-timers. <br><img src="trip1.jpg" alt="Beginner Rapids"></li>
+      <li><strong>Family Fun Float:</strong> Safe and exciting trip for families with children. <br><img src="trip2.jpg" alt="Family Rafting"></li>
+      <li><strong>Extreme Challenge:</strong> For the daring—tackle class V rapids with our expert guides. <br><img src="trip3.jpg" alt="Extreme Rafting"></li>
+    </ol>
+  </section>
 
+  <!-- TABLE SUMMARY -->
+  <section class="final-container">
+    <h2>Trip Summary</h2>
+    <table border="1" width="100%" cellspacing="0" cellpadding="10">
+      <thead>
+        <tr>
+          <th>Trip Name</th>
+          <th>Duration</th>
+          <th>Difficulty</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Beginner Rapids</td>
+          <td>Half Day</td>
+          <td>Easy</td>
+          <td>$75</td>
+        </tr>
+        <tr>
+          <td>Family Fun Float</td>
+          <td>1 Day</td>
+          <td>Moderate</td>
+          <td>$120</td>
+        </tr>
+        <tr>
+          <td>Extreme Challenge</td>
+          <td>2 Days</td>
+          <td>Hard</td>
+          <td>$250</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
 
-<section class="cta-section">
-  <div class="cta-overlay">
-    <h2>Ready for Your Next Adventure?</h2>
-    <p>Join our rafting community and experience unforgettable journeys across wild rivers.</p>
-    <a href="trips.html" class="cta-button">Book Your Trip Now</a>
-  </div>
-</section>
+  <!-- CALL TO ACTION -->
+  <section class="cta-section">
+    <div class="cta-overlay">
+      <h2>Book Your Adventure Now!</h2>
+      <p>Don’t wait — spots fill fast during the season!</p>
+      <a href="contact.html" class="cta-button">Contact Us</a>
+    </div>
+  </section>
 
-<footer>
-	<div class="footer">
-
-<div class="social-media">
-<p>Contact us: info@raftxadventures.com | +1 (123) 456-7890</p>
-<blockquote>&copy; 2025 RaftX Adventures. All rights reserved.</blockquote></p>
-<br>
-<br>
-<br>
-<br>
-<br>
-  <div class="social-media">
-    
-    <a href="https://facebook.com"><img src="images/facebook.png" alt="Facebook"></a>
-    <a href="https://instagram.com"><img src="images/instagram.jpeg" alt="Instagram"></a>
-
-  
-
-  </div>
-  
-</div>
-</footer>
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>&copy; 2025 Adventure Rafting. All Rights Reserved.</p>
+    <div class="social-media">
+      <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+      <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+      <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+    </div>
+  </footer>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
