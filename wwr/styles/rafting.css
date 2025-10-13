@@ -235,7 +235,12 @@ body {
   font-size: 1rem;
 }
 
-
+.trips-section img {
+  width: 200px;   /* adjust as needed */
+  height: auto;   /* keeps the image proportions */
+  border-radius: 10px; /* optional, for rounded corners */
+  margin-top: 10px; /* small space above the image */
+}
 /* =============================
    📍 CONTACT PAGE - MAP SECTION
 ============================= */
@@ -412,4 +417,5 @@ button:hover {
   width: 30px;
   height: 30px;
 }
+
 
