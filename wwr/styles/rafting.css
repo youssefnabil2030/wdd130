@@ -235,7 +235,7 @@ body {
   font-size: 1rem;
 }
 
-.trips-section img {
+.trips-section {
   width: 100px !important;
   height: auto !important;
   border: 3px solid red;
@@ -416,6 +416,7 @@ button:hover {
   width: 30px;
   height: 30px;
 }
+
 
 
 
