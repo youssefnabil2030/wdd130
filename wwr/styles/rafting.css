@@ -235,11 +235,7 @@ body {
   font-size: 1rem;
 }
 
-.list-section {
-  width: 100px !important;
-  height: auto !important;
-  border: 3px solid red;
-}
+
 /* =============================
    📍 CONTACT PAGE - MAP SECTION
 ============================= */
@@ -416,6 +412,7 @@ button:hover {
   width: 30px;
   height: 30px;
 }
+
 
 
 
